@@ -1,9 +1,3 @@
-# parse-server-example
-
-Example project using the [parse-server](https://github.com/ParsePlatform/parse-server) module on Express.
-
-Read the full Parse Server guide here: https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide
-
 
 ### For Local Development (Rorz's way)
 **DO NOT DEPLOY THIS APP**
@@ -23,6 +17,14 @@ Read the full Parse Server guide here: https://github.com/ParsePlatform/parse-se
 * Beautiful
 * You can access the parse dashboard from `http://localhost:1337/dashboard`
 
+---
+
+
+# parse-server-example
+
+Example project using the [parse-server](https://github.com/ParsePlatform/parse-server) module on Express.
+
+Read the full Parse Server guide here: https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide
 
 ### For Local Development
 
