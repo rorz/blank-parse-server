@@ -4,6 +4,26 @@ Example project using the [parse-server](https://github.com/ParsePlatform/parse-
 
 Read the full Parse Server guide here: https://github.com/ParsePlatform/parse-server/wiki/Parse-Server-Guide
 
+
+### For Local Development (Rorz's way)
+**DO NOT DEPLOY THIS APP**
+
+#### ~/blank-parse-server-data directory
+* Go to your home folder in Terminal
+* `mkdir blank-parse-server-data`
+* Get mongo running and connected to that location
+* `mongod --dbpath ~/blank-parse-server-data`
+* Leave mongo running 🏃🏻‍
+
+#### ~/blank-parse-server directory
+* Clone this repo and change directory to it.
+* `git clone https://github.com/rorz/blank-parse-server && cd blank-parse-server`
+* `npm install`
+* Run the server with: `npm start`
+* Beautiful
+* You can access the parse dashboard from `http://localhost:1337/dashboard`
+
+
 ### For Local Development
 
 * Make sure you have at least Node 4.3. `node --version`
@@ -55,7 +75,7 @@ Detailed information is available here:
 
 ### Getting Started With Google App Engine
 
-1. Clone the repo and change directory to it 
+1. Clone the repo and change directory to it
 1. Create a project in the [Google Cloud Platform Console](https://console.cloud.google.com/).
 1. [Enable billing](https://console.cloud.google.com/project/_/settings) for your project.
 1. Install the [Google Cloud SDK](https://cloud.google.com/sdk/).
@@ -113,7 +133,7 @@ curl -X POST \
   -H "Content-Type: application/json" \
   -d '{"score":1337,"playerName":"Sean Plott","cheatMode":false}' \
   http://localhost:1337/parse/classes/GameScore
-  
+
 curl -X POST \
   -H "X-Parse-Application-Id: myAppId" \
   -H "Content-Type: application/json" \
