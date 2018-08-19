@@ -14,6 +14,7 @@
 * `git clone https://github.com/rorz/blank-parse-server && cd blank-parse-server`
 * `npm install`
 * Run the server with: `npm start`
+* 'NDB' will probably pop-up which is a custom debugging tool that is way more helpful than console logging
 * Beautiful
 * You can access the parse dashboard from `http://localhost:1337/dashboard`
 
